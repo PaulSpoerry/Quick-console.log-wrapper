@@ -9,7 +9,7 @@ Today I was debugging an issue for a client and needed a way to debug without br
 
 CODE:
 
-var DEBUG = false; // enable console logging ex: console.log('sCoverageAsOfDate= ');
+var DEBUG = false; // enable console logging ex: console.log('sCoverageAsOfDate= '); 
  if (!DEBUG) {
     if (!window.console) window.console = {};
     var methods = ["log", "debug", "warn", "info"];
